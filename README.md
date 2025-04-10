@@ -12,7 +12,7 @@ for files in the SNDH archive format.
 First, tap the repository:
 
 ```sh
-brew tap kareandersen/psgplay
+brew tap kareandersen/homebrew-psgplay
 ```
 
 Then install the player:
