@@ -15,14 +15,10 @@ First, tap the repository:
 brew tap kareandersen/homebrew-psgplay
 ```
 
-Then install the player:
-```sh
-brew install psgplay
-```
 
 To install the latest development version:
 ```sh
-brew install --HEAD psgplay
+brew install --build-from-source --HEAD psgplay
 ```
 
 
