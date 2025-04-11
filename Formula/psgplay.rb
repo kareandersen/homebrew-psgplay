@@ -3,7 +3,7 @@ class Psgplay < Formula
   homepage "https://github.com/frno7/psgplay"
   license "GPL-2.0-only"
   url "https://github.com/frno7/psgplay/archive/refs/tags/v0.7.tar.gz"
-  head "https://github.com/kareandersen/psgplay.git", branch: "homebrew_builds", using: :git, shallow: false
+  head "https://github.com/frno7/psgplay.git", branch: "main", using: :git, shallow: false
 
   depends_on "gcc" => :build
   depends_on "portaudio"
