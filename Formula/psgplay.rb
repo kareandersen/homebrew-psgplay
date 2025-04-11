@@ -6,6 +6,7 @@ class Psgplay < Formula
   head "https://github.com/frno7/psgplay.git", branch: "main", using: :git, shallow: false
 
   depends_on "gcc" => :build
+  depends_on "pkg-config" => :build
   depends_on "portaudio"
 
   def install
